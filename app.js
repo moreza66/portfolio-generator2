@@ -1,4 +1,17 @@
-// var profileDataArgs = process.argv.slice(2, process.argv.length);
-// console.log(profileDataArgs);
+const animalArray = ["dog", "cat", "pig"];
 
-console.log("Hello0000000o");
+animalArray.push("cow");
+
+const personObj = {
+  name: "Lernantino",
+  age: 99,
+};
+
+personObj.age = 100;
+personObj.occupation = "Developer";
+
+const printProfileData = (profileDataArr) => {
+  console.log(profileDataArr);
+};
+
+printProfileData(profileDataArgs);
